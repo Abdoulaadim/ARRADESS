@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="30dp"
+    tools:context=".Inscription">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-black"
+        android:layout_gravity="center"
+        android:text="@string/Inscription"
+        android:textColor="@color/black"
+        android:paddingBottom="30dp"
+        android:textSize="30sp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-black"
+        android:paddingLeft="50dp"
+        android:paddingBottom="3dp"
+        android:text="CIN : "
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+    <EditText
+        android:id="@+id/cin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:background="@drawable/raduis"
+        android:ems="12"
+        android:hint="Enter le CIN"
+        android:lineSpacingExtra="4dp"
+        android:padding="6dp"
+        android:paddingLeft="50dp"
+        android:layout_marginBottom="10dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-black"
+        android:paddingLeft="50dp"
+        android:paddingBottom="3dp"
+        android:text="Nom : "
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+    <EditText
+        android:id="@+id/nom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:background="@drawable/raduis"
+        android:ems="12"
+        android:hint="Nom"
+        android:lineSpacingExtra="4dp"
+        android:padding="6dp"
+        android:paddingLeft="50dp"
+        android:layout_marginBottom="10dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-black"
+        android:paddingLeft="50dp"
+        android:paddingBottom="3dp"
+        android:text="Prenom : "
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+    <EditText
+        android:id="@+id/prenom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:background="@drawable/raduis"
+        android:ems="12"
+        android:hint="Prenom"
+        android:lineSpacingExtra="4dp"
+        android:padding="6dp"
+        android:paddingLeft="50dp"
+        android:layout_marginBottom="10dp"/>
+    <TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:fontFamily="sans-serif-black"
+    android:paddingLeft="50dp"
+    android:paddingBottom="3dp"
+    android:text="Email : "
+    android:textColor="@color/black"
+    android:textSize="18sp" />
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:background="@drawable/raduis"
+        android:ems="12"
+        android:hint="Email"
+        android:lineSpacingExtra="4dp"
+        android:padding="6dp"
+        android:paddingLeft="50dp"
+        android:layout_marginBottom="10dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-black"
+        android:paddingLeft="50dp"
+        android:paddingBottom="3dp"
+        android:text="Adresse : "
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+    <EditText
+        android:id="@+id/num_contrat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:background="@drawable/raduis"
+        android:ems="12"
+        android:hint="Adresse"
+        android:lineSpacingExtra="4dp"
+        android:padding="6dp"
+        android:paddingLeft="50dp"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-black"
+        android:paddingLeft="50dp"
+        android:paddingBottom="3dp"
+        android:text="Localité : "
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="302dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/raduis"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-black"
+        android:paddingLeft="50dp"
+        android:paddingBottom="3dp"
+        android:text="Numéro de contrat : "
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/contrat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginBottom="40dp"
+        android:background="@drawable/raduis"
+        android:ems="12"
+        android:hint="Numero de contrat"
+        android:inputType="number"
+        android:lineSpacingExtra="4dp"
+        android:padding="6dp"
+        android:paddingLeft="50dp"/>
+    <Button
+        android:id="@+id/inscri"
+        android:layout_width="144dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/inscrirebuttonver"
+        android:textColor="@color/white"
+        android:text="S'inscrire" />
+
+
+
+</LinearLayout>

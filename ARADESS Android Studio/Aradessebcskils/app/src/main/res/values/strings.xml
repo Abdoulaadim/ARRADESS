@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Aradessebcskils</string>
+    <string name="Inscription"><u>Inscription</u></string>
+    <string name="aradess"><u>ARRADESS</u></string>
+    <string name="client"><u>Identifiant du client</u></string>
+    <string name="facture"><u>Liste des factures</u></string>
+    <string name="éléctricité"><u>Compteur Électricité Détail</u></string>
+
+</resources>
